@@ -538,6 +538,7 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 1% !important;
 }
 
 /* --------- */
@@ -546,10 +547,23 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-top: 100px !important;
+  padding-bottom: 45px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.about-card {
+  background-color : transparent !important;
+  text-align: left;
+}
+
+.about-card .card-body {
+  padding: 0% 12% 0% 12%;
+} 
+
+.about-card-right {
+  text-align: right;
 }
 
 .tech-icons {
@@ -585,7 +599,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: rgba(197, 115, 230, 0.883) !important;
   background-color: transparent !important;
 }
 

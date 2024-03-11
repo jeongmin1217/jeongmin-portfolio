@@ -27,6 +27,9 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for building web applications with <b className="purple">React.js and Django.</b>
+              <br />
+              <br />
+              I fell in love with football since I was 7 years old. I love to play football and watch football 💜
             </p>
           </Col>
           <Col md={3} className="myAvtar" style={{marginLeft: '4%'}}>
