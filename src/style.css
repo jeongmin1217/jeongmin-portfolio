@@ -262,6 +262,8 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -538,7 +540,7 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
-  padding-bottom: 1% !important;
+  padding-bottom: 1.5% !important;
 }
 
 /* --------- */

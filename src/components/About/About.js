@@ -9,15 +9,15 @@ function About() {
   const workDetails = [
     {
       Position: "Data Engineer",
-      Company: `Visang Education`,
-      Location: "Seoul, South Korea",
+      Company: `Visang Education - Data Platform Cell`,
+      Location: "Seoul, Republic of Korea",
       Type: "Internship",
       Duration: "Jul 2023 - Aug 2023 & Jan 2024 - Feb 2024",
       Category: "Work"
     },
     {
       Position: "Student Intern",
-      Company: `Purdue University`,
+      Company: `Purdue University - Computer & Information Technology Lab`,
       Location: "West Lafayette, Indiana, USA",
       Type: "Internship",
       Duration: "Sep 2023 - Dec 2023",
@@ -29,7 +29,7 @@ function About() {
     {
       Position: "Bachelor of Industrial Management Engineering and Software Convergence",
       Company: "Kyunghee University",
-      Location: "Seoul",
+      Location: "Yongin-si, Gyeonggi-do, Republic of Korea",
       Type: "Senior",
       Duration: "Feb 2018 - Present",
       Category: "Education",
@@ -67,7 +67,7 @@ function About() {
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong>
         </h1>
         <Toolstack />
       </Container>

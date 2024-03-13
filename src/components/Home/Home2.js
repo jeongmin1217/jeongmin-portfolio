@@ -23,7 +23,7 @@ function Home2() {
               <i>
                 <b className="purple"> Data engineering and Web development. </b>
               </i>
-              I'm particularly fascinated by data processing and provisioning using Python and SQL.
+              I'm particularly fascinated by data engineering such as developing data pipelines based on cloud infrastructure using Airflow.
               <br />
               <br />
               Whenever possible, I also apply my passion for building web applications with <b className="purple">React.js and Django.</b>
