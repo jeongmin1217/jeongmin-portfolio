@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import hot from "../../Assets/Projects/hot.png";
+import fav_restaurant from "../../Assets/Projects/fav_restaurant.png";
+import look_at_me from "../../Assets/Projects/look_at_me.png";
+import visang_portal from "../../Assets/Projects/visang_portal.png";
+import lcpp1 from "../../Assets/Projects/lcpp1.png";
+import lib_detection from "../../Assets/Projects/lib_detection.png";
 
 function Projects() {
   return (
@@ -15,75 +15,143 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Main <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={visang_portal}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title={
+                <span>
+                  <b>Visang Education Data Platform Cell</b>
+                </span>
+              }
+              description={
+                <span>
+                  <b>Main Skill : <i>Airflow, AWS, React, and PostgreSQL</i></b><br></br>
+                  Our team's goal is to establish company-wide data governance and manage the whole data of 30 in-house brands. <br></br>
+                  I was in charge of building data pipeline that extracts metadata for each brand from the source DB (DB of each brand) and developing and operating an in-house data portal based on the metadata. <br></br>
+              <i>React, Tailwind CSS</i> was used to develop the front-end of the data portal,
+              and by using <i>Airflow</i>, I worked on the metadata ETL job. Also, I encountered various databases such as <i>PostgreSQL, MySQL, and Oracle</i> during the process.
+              In addition, all the work was done within the VPC network built through <i>AWS</i>.
+                </span>
+              }
               ghLink="https://github.com/jeongmin1217"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={lib_detection}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title={
+                <span>
+                  <b>Improvement of Reservation System for Library based on Computer Vision</b>
+                </span>
+              }
+              description={
+                <span>
+                  <b>Main Skill : <i>React, Django, and OpenCV</i></b><br></br>
+                  There is a problem with the lack of seats in my university’s library. Main reason of the problem are private seats (reserve a seat even though he/she is not using) and vacant seats (missed or forgot to check out reservation). <br></br>
+                  To resolve the problem, our team made the improved reservation system. I worked on both front-end(<i>React</i>) and back-end(<i>Django</i>) part of the system.<br></br>
+                  Also, we used <i>OpenCV and Network Portforwarding</i> to analyze real-time status of seats by detecting seats, people, and pieces of luggage through IP Camera.
+                </span>
+              }
+              ghLink="https://github.com/LibraryDetection"
+              demoLink="https://github.com/LibraryDetection"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={look_at_me}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title={
+                <span>
+                  <b>Look-At-Me</b>
+                </span>
+              }
+              description={
+                <span>
+                  <b>Main Skill : <i>React, Django, Dlib and Electron</i></b><br></br>
+                  Look-At-Me is a desktop application which helps users focus on E-learning based on gaze tracking and manages the concentration record.<br></br>
+                  <i>Tensorflow.js, OpenCV, and Dlib</i> were used to track the user's gaze, and back-end of the application was built with <i>Django</i>.
+                  The gaze data was managed through <i>SQLite</i>, and the front-end was developed as a desktop application using <i>React and Electron</i>.<br></br>
+                  This a personal project and I worked on the whole front-end, back-end, and data analysis parts.
+                </span>
+              }
+              ghLink="https://github.com/jeongmin1217/LookAtMe"
+              demoLink="https://github.com/jeongmin1217/LookAtMe"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={hot}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title={
+                <span>
+                  <b>CandY</b>
+                </span>
+              }
+              description={
+                <span>
+                  <b>Main Skill : <i>Python, Django, and React-Native</i></b><br></br>
+                  CANDY (Concentration AND You) is an application that manages and calculates the user's concentration using bio-data collected from a wearable device(Fitbit).<br></br>
+                  We found out the correlation between concentration and bio-data through brain waves, and calculate the concentration score.<br></br>
+                  I preprocessed bio-data from two different devices using <i>Python</i> libraries such as <i>Numpy, Pandas, etc</i>.
+                </span>
+              }
+              ghLink="https://github.com/Healthcare-of-Things"
+              demoLink="https://github.com/Healthcare-of-Things"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={lcpp1}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title={
+                <span>
+                  <b>Local People</b>
+                </span>
+              }
+              description={
+                <span>
+                  <b>Main Skill : <i>React, Firebase, and Typescript</i></b><br></br>
+                  CANDY (Concentration AND You) is an application that manages and calculates the user's concentration using bio-data collected from a wearable device(Fitbit).<br></br>
+                  We found out the correlation between concentration and bio-data through brain waves, and calculate the concentration score.<br></br>
+                  I preprocessed bio-data from two different devices using <i>Python</i> libraries such as <i>Numpy, Pandas, etc</i>.
+                </span>
+              }
+              ghLink="https://github.com/jeongmin1217/Local-People"
+              demoLink="https://github.com/jeongmin1217/Local-People"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={fav_restaurant}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title={
+                <span>
+                  <b>Favorite Restaurant</b>
+                </span>
+              }
+              description={
+                <span>
+                  <b>Main Skill : <i>Node.js, Nginx, and AWS</i></b><br></br>
+                  CANDY (Concentration AND You) is an application that manages and calculates the user's concentration using bio-data collected from a wearable device(Fitbit).<br></br>
+                  We found out the correlation between concentration and bio-data through brain waves, and calculate the concentration score.<br></br>
+                  I preprocessed bio-data from two different devices using <i>Python</i> libraries such as <i>Numpy, Pandas, etc</i>.
+                </span>
+              }
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://github.com/jeongmin1217/Local-People"
             />
           </Col>
         </Row>

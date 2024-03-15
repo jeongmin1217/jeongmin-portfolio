@@ -471,10 +471,26 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.project-card-view i {
+  color: rgba(197, 115, 230, 0.883);
+  font-weight: 800;
+}
+
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card-view .card-body .btn {
+  margin-top: auto;
 }
 
 .blog-card {
@@ -509,9 +525,14 @@ button:focus {
 }
 
 .card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
+  padding-top: 15px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  /* opacity: 0.8 !important; */
   border-radius: 10px !important;
+  width: 100% !important; /* 사진의 너비를 200px로 설정 */
+  height: 250px !important; /* 사진의 높이를 150px로 설정 */
+  /* object-fit: cover; */
 }
 
 .blog-img {
