@@ -123,9 +123,9 @@ function Projects() {
               description={
                 <span>
                   <b>Main Skill : <i>React, Firebase, and Typescript</i></b><br></br>
-                  CANDY (Concentration AND You) is an application that manages and calculates the user's concentration using bio-data collected from a wearable device(Fitbit).<br></br>
-                  We found out the correlation between concentration and bio-data through brain waves, and calculate the concentration score.<br></br>
-                  I preprocessed bio-data from two different devices using <i>Python</i> libraries such as <i>Numpy, Pandas, etc</i>.
+                  Local People is a location based Social Network Service for sharing useful information among neighborhoods. <br></br>
+                  Location authentication and map functions were developed using the Kakao Map API. <br></br>
+                  Also, we used <i>React, Typescript, and Firebase</i> while developing and I was in charge of the entire development.
                 </span>
               }
               ghLink="https://github.com/jeongmin1217/Local-People"
@@ -145,13 +145,13 @@ function Projects() {
               description={
                 <span>
                   <b>Main Skill : <i>Node.js, Nginx, and AWS</i></b><br></br>
-                  CANDY (Concentration AND You) is an application that manages and calculates the user's concentration using bio-data collected from a wearable device(Fitbit).<br></br>
-                  We found out the correlation between concentration and bio-data through brain waves, and calculate the concentration score.<br></br>
-                  I preprocessed bio-data from two different devices using <i>Python</i> libraries such as <i>Numpy, Pandas, etc</i>.
+                  Favorite Restaurant is a web service where you can get information about famous restaurants by communicating with users through real-time chat functions.<br></br>
+                  Real-time chat allows you to quickly share real-time information(wating status, taste, etc) of the restaurant with other users. <br></br>
+                  We used <i>Node.js, Express.js, Nginx, AWS RDS and AWS EC2</i> to develop the service and I was in charge of both the front-end and the back-end.
                 </span>
               }
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://github.com/jeongmin1217/Local-People"
+              ghLink="https://github.com/jeongmin1217/favorite_restaurant"
+              demoLink="https://github.com/jeongmin1217/favorite_restaurant"
             />
           </Col>
         </Row>
