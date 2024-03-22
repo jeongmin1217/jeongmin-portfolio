@@ -16,7 +16,7 @@ function About() {
       Category: "Work"
     },
     {
-      Position: "Student Intern",
+      Position: "Visitor Scholar (Student Intern)",
       Company: `Purdue University - Computer & Information Technology Lab`,
       Location: "West Lafayette, Indiana, USA",
       Type: "Internship",
@@ -27,7 +27,7 @@ function About() {
 
   const eduDetails = [
     {
-      Position: "Bachelor of Industrial Management Engineering and Software Convergence",
+      Position: "Bachelor of Industrial Management Engineering & Software Convergence (Double Major)",
       Company: "Kyunghee University",
       Location: "Yongin-si, Gyeonggi-do, Republic of Korea",
       Type: "Senior",

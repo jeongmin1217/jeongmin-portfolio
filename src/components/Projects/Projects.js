@@ -40,7 +40,7 @@ function Projects() {
               In addition, all the work was done within the VPC network built through <i>AWS</i>.
                 </span>
               }
-              ghLink="https://github.com/jeongmin1217"
+              ghLink="https://github.com/jeongmin1217/Visang-Education-Data-Platform-Cell-Review"
             />
           </Col>
 
@@ -62,7 +62,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/LibraryDetection"
-              demoLink="https://github.com/LibraryDetection"
+              demoLink="https://youtu.be/UC9ejhq_gLQ"
             />
           </Col>
 
@@ -85,7 +85,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/jeongmin1217/LookAtMe"
-              demoLink="https://github.com/jeongmin1217/LookAtMe"              
+              demoLink="https://youtu.be/77s0UEhojYg"              
             />
           </Col>
 
@@ -107,7 +107,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/Healthcare-of-Things"
-              demoLink="https://github.com/Healthcare-of-Things"
+              demoLink="https://youtu.be/XCtSMd3H6fg"
             />
           </Col>
 
@@ -129,7 +129,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/jeongmin1217/Local-People"
-              demoLink="https://github.com/jeongmin1217/Local-People"
+              demoLink="https://youtu.be/Ipv6sa7WkJI"
             />
           </Col>
 
@@ -151,7 +151,6 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/jeongmin1217/favorite_restaurant"
-              demoLink="https://github.com/jeongmin1217/favorite_restaurant"
             />
           </Col>
         </Row>
