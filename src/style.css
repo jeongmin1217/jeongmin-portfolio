@@ -469,6 +469,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   font-family: "CustomFont";
+  font-weight: 100;
 }
 
 .project-card {
@@ -477,7 +478,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .project-card-view {
