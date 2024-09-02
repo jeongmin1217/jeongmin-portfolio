@@ -13,7 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { BiBriefcase } from "react-icons/bi";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -74,6 +74,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/portfolio"
+                onClick={() => updateExpanded(false)}
+              >
+                <BiBriefcase style={{ marginBottom: "2px" }} /> Portfolio
               </Nav.Link>
             </Nav.Item>
 

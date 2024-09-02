@@ -15,13 +15,13 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Main <strong className="purple">Works </strong>
+          Main <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on.
+          간략한 저의 주요 프로젝트를 소개드립니다!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={visang_portal}
               isBlog={false}
@@ -33,7 +33,7 @@ function Projects() {
               description={
                 <span>
                   <b>Main Skill : <i>Airflow, AWS, React, and PostgreSQL</i></b><br></br>
-                  Our team's goal is to establish company-wide data governance and manage the whole data of 30 in-house brands. <br></br>
+                  Our team's goal is to establish company-wide data governance and manage the whole data of 50 in-house brands. <br></br>
                   I was in charge of building data pipeline that extracts metadata for each brand from the source DB (DB of each brand) and developing and operating an in-house data portal based on the metadata. <br></br>
               <i>React, Tailwind CSS</i> was used to develop the front-end of the data portal,
               and by using <i>Airflow</i>, I worked on the metadata ETL job. Also, I encountered various databases such as <i>PostgreSQL, MySQL, and Oracle</i> during the process.
@@ -44,7 +44,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={lib_detection}
               isBlog={false}
@@ -66,7 +66,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={look_at_me}
               isBlog={false}
@@ -89,7 +89,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={hot}
               isBlog={false}
@@ -107,52 +107,10 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/Healthcare-of-Things"
-              demoLink="https://youtu.be/XCtSMd3H6fg"
+              demoLink="https://youtu.be/XCtSMd5H6fg"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={lcpp1}
-              isBlog={false}
-              title={
-                <span>
-                  <b>Local People</b>
-                </span>
-              }
-              description={
-                <span>
-                  <b>Main Skill : <i>React, Firebase, and Typescript</i></b><br></br>
-                  Local People is a location based Social Network Service for sharing useful information among neighborhoods. <br></br>
-                  Location authentication and map functions were developed using the Kakao Map API. <br></br>
-                  Also, we used <i>React, Typescript, and Firebase</i> while developing and I was in charge of the entire development.
-                </span>
-              }
-              ghLink="https://github.com/jeongmin1217/Local-People"
-              demoLink="https://youtu.be/Ipv6sa7WkJI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fav_restaurant}
-              isBlog={false}
-              title={
-                <span>
-                  <b>Favorite Restaurant</b>
-                </span>
-              }
-              description={
-                <span>
-                  <b>Main Skill : <i>Node.js, Nginx, and AWS</i></b><br></br>
-                  Favorite Restaurant is a web service where you can get information about famous restaurants by communicating with users through real-time chat functions.<br></br>
-                  Real-time chat allows you to quickly share real-time information(wating status, taste, etc) of the restaurant with other users. <br></br>
-                  We used <i>Node.js, Express.js, Nginx, AWS RDS and AWS EC2</i> to develop the service and I was in charge of both the front-end and the back-end.
-                </span>
-              }
-              ghLink="https://github.com/jeongmin1217/favorite_restaurant"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

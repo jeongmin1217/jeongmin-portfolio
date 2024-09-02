@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/서정민.jpg";
+import myImg from "../../Assets/3X4 Web2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,20 +16,22 @@ function Home2() {
         <Row style={{alignContent: 'center'}}>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME INTRODUCE MYSELF
             </h1>
             <p className="home-about-body">
-              I specialize in <b className="purple"> Python, SQL, and JavaScript, </b> with a focus on 
+              저는 데이터 기반 의사 결정을 지원하기 위한 <u> <b className="purple">고품질</b> 데이터의 수집, 처리, 저장 프로세스를 고민하고 개발하는 과정</u>을 즐깁니다.
+              모든 규모와 형태의 데이터를 효율적으로 처리할 수 있는 환경이 구축된, <b className="purple">데이터 기반의 혁신적인 세계</b>를 꿈꾸며 이를 위한
               <i>
-                <b className="purple"> Data engineering and Web development. </b>
+                <b className="purple"> 데이터 엔지니어링</b>
               </i>
-              I'm particularly fascinated by data engineering such as developing data pipelines based on cloud infrastructure using Airflow.
+              에 관심이 많습니다. 앞으로 다양한 규모와 형태의 데이터 처리와 이를 위한 환경 구축 작업을 경험하고자 합니다.
               <br />
               <br />
-              Whenever possible, I also apply my passion for building web applications with <b className="purple">React.js and Django.</b>
+              주 언어로는 <b className="purple"> Python과 SQL</b>을 사용하며, <b className="purple">Airflow, Hadoop-ecosystem, Cloud Computing</b>에 관심이 많습니다.
               <br />
               <br />
-              I fell in love with football since I was 7 years old. I love to play football and watch football 💜
+              또한, 7살 때부터 축구와 사랑에 빠진, 월드컵 2회 직관 경험의 10년차
+              <span style={{color: "red", fontWeight: "bold", backgroundColor: "black"}}> FC서울</span> 팬입니다 💜
             </p>
           </Col>
           <Col md={3} className="myAvtar" style={{marginLeft: '4%'}}>

@@ -17,9 +17,9 @@ function About() {
     },
     {
       Position: "Visitor Scholar (Student Intern)",
-      Company: `Purdue University - Computer & Information Technology Lab`,
+      Company: `Purdue University - Dept of Computer & Information Technology`,
       Location: "West Lafayette, Indiana, USA",
-      Type: "Internship",
+      Type: "Student Intern",
       Duration: "Sep 2023 - Dec 2023",
       Category: "Work"
     },
@@ -66,10 +66,10 @@ function About() {
         </h1>
         <Techstack />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong>
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
       </Container>
     </Container>
   );

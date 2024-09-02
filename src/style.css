@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Assets/custom-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -12,6 +19,8 @@ html {
   );
 
   --imp-text-color: #c770f0;
+
+  font-family: 'CustomFont', sans-serif;
 }
 
 .purple {
@@ -254,6 +263,7 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  font-family: 'CustomFont';
 }
 
 .home-section {
@@ -338,6 +348,8 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+  font-family: 'CustomFont', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .home-about-social {
@@ -418,6 +430,7 @@ button:focus {
 .footer-body {
   z-index: 1;
   text-align: center !important;
+  font-family: 'CustomFont', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -427,6 +440,7 @@ button:focus {
 
   .footer-body {
     text-align: center !important;
+    font-family: 'CustomFont', sans-serif;
   }
 }
 
@@ -453,6 +467,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  font-family: "CustomFont";
 }
 
 .project-card {
@@ -487,10 +502,12 @@ button:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'CustomFont', sans-serif;
 }
 
 .project-card-view .card-body .btn {
   margin-top: auto;
+  font-family: 'CustomFont', sans-serif;
 }
 
 .blog-card {
@@ -583,6 +600,7 @@ button:focus {
 
 .about-card .card-body {
   padding: 0% 12% 0% 12%;
+  font-family: 'CustomFont', sans-serif;
 } 
 
 .about-card-right {

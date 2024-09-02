@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Toss_DAE_Resume.pdf";
+import pdf from "../../Assets/../Assets/Toss_DAE_Portfolio.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -29,21 +29,21 @@ function PdfViewer({ file }) {
         <Page
           key={`page_${index + 1}`}
           pageNumber={index + 1}
-          scale={width > 786 ? 1.7 : 0.6}
+          scale={width > 786 ? 0.6 : 1.7}
         />
       ))}
     </Document>
   );
 }
 
-function ResumeNew() {
+function Portfolio() {
   return (
     <Container fluid className="resume-section">
       <Particle />
       <Col style={{ justifyContent: "center", position: "relative" }}>
         <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
           <AiOutlineDownload />
-          &nbsp;Download Resume
+          &nbsp;Download Portfolio
         </Button>
       </Col>
       <Col className="resume">
@@ -53,4 +53,4 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew;
+export default Portfolio;
