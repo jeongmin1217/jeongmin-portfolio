@@ -25,10 +25,10 @@ function PdfViewer({ file }) {
 
   return (
     <Document file={file} onLoadSuccess={onDocumentLoadSuccess} className="d-flex flex-column align-items-center">
-      {Array.from({ length: numPages - 1 }, (_, index) => ( //numPages
+      {Array.from(new Array(numPages), (el, index) => (
         <Page
           key={`page_${index + 1}`}
-          pageNumber={numPages - index - 1}  // 페이지 번호 설정, 마지막 페이지 제외 // 기존 : index + 1
+          pageNumber={index + 1}
           scale={width > 786 ? 0.6 : 1.7}
         />
       ))}
