@@ -92,7 +92,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/jeongmin1217/PostureGuard"
-              demoLink="https://youtu.be/VgrtuKNS-JU?si=1vdYciOX_Gtf4AXU"              
+              demoLink="https://www.youtube.com/watch?v=l_z4xRT4i7k"              
             />
           </Col>
 
