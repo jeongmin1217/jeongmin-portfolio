@@ -20,11 +20,8 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               저는 데이터 기반 의사 결정을 지원하기 위한 <u> <b className="purple">고품질</b> 데이터의 수집, 처리, 저장 프로세스를 고민하고 개발하는 과정</u>을 즐깁니다.
-              모든 규모와 형태의 데이터를 효율적으로 처리할 수 있는 환경이 구축된, <b className="purple">데이터 기반의 혁신적인 세계</b>를 꿈꾸며 이를 위한
-              <i>
-                <b className="purple"> 데이터 엔지니어링</b>
-              </i>
-              에 관심이 많습니다. 앞으로 다양한 규모와 형태의 데이터 처리와 이를 위한 환경 구축 작업을 경험하고자 합니다.
+              모든 규모와 형태의 데이터를 효율적으로 처리할 수 있는 환경이 구축된, <b className="purple">데이터 기반의 혁신적인 세계</b>를 상상합니다.
+              앞으로 다양한 규모와 형태의 데이터 처리 및 운영과 이를 위한 환경 구축 작업을 경험하며 성장하고자 합니다.
               <br />
               <br />
               주 언어로는 <b className="purple"> Python과 SQL</b>을 사용하며, <b className="purple">Airflow, Hadoop-ecosystem, Cloud Computing</b>에 관심이 많습니다.
