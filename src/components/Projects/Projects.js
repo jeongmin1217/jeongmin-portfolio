@@ -49,7 +49,7 @@ function Projects() {
                   <li><u>데이터 포털 서비스 Front-End 개발</u></li>
                   <br></br>
                   <b className="purple">&bull; 배운 점</b><br></br>
-                  3100개 가량의 규칙없이 운영되어 온 테이블 메타데이터를 일일이 깊게 보며, 이를 통한 가치 창출의 무한함을 생각했을 때 매우 아쉬웠고, Data Quality의 중요성을 배움.
+                  4000개 가량의 규칙없이 운영되어 온 테이블 메타데이터를 일일이 깊게 보며, 이를 통한 가치 창출의 무한함을 생각했을 때 매우 아쉬웠고, Data Quality의 중요성을 배움.
                   또한, 주제영역 분류 자동화 시도 당시, 키워드를 이용한 bottom-up 방식의 새로운 시도로 주제 영역 분류를 자동화하며 집요한 도전의 중요성을 배움.<br></br>
                   <br></br>
                   <b>Main Skill : <i>Airflow, AWS, PostgreSQL, React, Git</i></b><br></br>
