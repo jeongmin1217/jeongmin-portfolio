@@ -16,7 +16,7 @@ function About() {
       Category: "Work"
     },
     {
-      Position: "Visitor Scholar (Student Intern)",
+      Position: "Student Intern (Visitor Scholarship)",
       Company: `Purdue University - Dept of Computer & Information Technology`,
       Location: "West Lafayette, Indiana, USA",
       Type: "Student Intern",
