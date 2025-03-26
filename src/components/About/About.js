@@ -8,11 +8,11 @@ import Toolstack from "./Toolstack";
 function About() {
   const workDetails = [
     {
-      Position: "Data Engineer",
+      Position: "Intern - Data Engineer",
       Company: `Visang Education - Data Platform Cell`,
       Location: "Seoul, Republic of Korea",
       Type: "Internship",
-      Duration: "Jul 2023 - Aug 2023 & Jan 2024 - Feb 2024",
+      Duration: "Jan 2024 - Feb 2024",
       Category: "Work"
     },
     {
@@ -23,15 +23,23 @@ function About() {
       Duration: "Sep 2023 - Dec 2023",
       Category: "Work"
     },
+    {
+      Position: "Intern - Front-End Developer & Project Manager",
+      Company: `Visang Education - Data Platform Cell`,
+      Location: "Seoul, Republic of Korea",
+      Type: "Internship",
+      Duration: "Jul 2023 - Aug 2023",
+      Category: "Work"
+    },
   ];
 
   const eduDetails = [
     {
-      Position: "Bachelor of Industrial Management Engineering & Software Convergence (Double Major)",
+      Position: "B.S. in Industrial Management Engineering & Software Convergence (Double Major)",
       Company: "Kyunghee University",
       Location: "Yongin-si, Gyeonggi-do, Republic of Korea",
       Type: "Senior",
-      Duration: "Feb 2018 - Present",
+      Duration: "Feb 2018 - Feb 2025",
       Category: "Education",
     },
   ];

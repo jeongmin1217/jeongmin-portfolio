@@ -19,16 +19,21 @@ function Home2() {
               LET ME INTRODUCE MYSELF
             </h1>
             <p className="home-about-body">
-              저는 데이터 기반 의사 결정을 지원하기 위한 <u> <b className="purple">고품질</b> 데이터의 수집, 처리, 저장 프로세스를 고민하고 개발하는 과정</u>을 즐깁니다.
-              모든 규모와 형태의 데이터를 효율적으로 처리할 수 있는 환경이 구축된, <b className="purple">데이터 기반의 혁신적인 세계</b>를 상상합니다.
-              앞으로 다양한 규모와 형태의 데이터 처리 및 운영과 이를 위한 환경 구축 작업을 경험하며 성장하고자 합니다.
+              <i><b className="purple">데이터를 통해 세상을 변화시키는 일에 관심이 많습니다.</b></i>
+              <br></br>
+              특히 <b className="purple">데이터를 수집∙처리∙적재하는 구조를 고민하고 설계</b>하는 과정에 큰 흥미를 가지고 있습니다.
+              동시에 데이터를 기반으로 아이디어를 기술적으로 실현해 나가는 방향을 <b className="purple">여러 사람과 함께 고민하고 판단하는 과정</b>에 흥미를 느낍니다.
+              <br></br>
+              <br></br>
+              저는 데이터가 다양한 혁신의 출발점이 된다고 믿습니다.
+              데이터 생애 주기 전반을 균형 있게 사고할 수 있는 사람으로 성장해, 모든 규모와 형태의 데이터를 효율적으로 처리할 수 있는 환경이 구축된, 
+              <b className="purple"> 데이터 기반의 혁신적인 세계</b>를 만들고자 합니다.
               <br />
               <br />
-              주 언어로는 <b className="purple"> Python과 SQL</b>을 사용하며, <b className="purple">Airflow, Hadoop-ecosystem, Cloud Computing</b>에 관심이 많습니다.
+              주 언어로는 <b className="purple"> Python과 SQL</b>을 사용하며, <b className="purple">데이터 파이프라인과 아키텍처</b>에 관심이 많습니다.
               <br />
-              <br />
-              또한, 7살 때부터 축구와 사랑에 빠진, 월드컵 2회 직관 경험의 10년차
-              <span style={{color: "red", fontWeight: "bold", backgroundColor: "black"}}> FC서울</span> 팬입니다 💜
+              또한, 7살 때부터 축구와 사랑에 빠진, 월드컵 2회 직관 경험의 11년차
+              <span style={{color: "red", fontWeight: "bold", backgroundColor: "black"}}> FC서울</span> 팬입니다 🖤❤️
             </p>
           </Col>
           <Col md={3} className="myAvtar" style={{marginLeft: '4%'}}>

@@ -12,9 +12,9 @@ const AboutCard = ({ Position, Company, Location, Type, Duration, Category }) =>
           <Col>
             {Category === 'Work' ? '🗄' : '🏫'} {Company}
           </Col>
-          <Col className="about-card-right">
+          {/* <Col className="about-card-right">
             {Type}
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col>
