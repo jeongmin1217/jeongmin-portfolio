@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               <i><b className="purple">데이터를 통해 세상을 변화시키는 일에 관심이 많습니다.</b></i>
               <br></br>
-              특히 <b className="purple">데이터를 수집∙처리∙적재하는 구조를 고민하고 설계</b>하는 과정에 큰 흥미를 가지고 있습니다.
+              특히 <b className="purple">데이터를 수집∙처리∙적재하는 구조를 고민하고 설계∙구축</b>하는 과정에 큰 흥미를 가지고 있습니다.
               동시에 데이터를 기반으로 아이디어를 기술적으로 실현해 나가는 방향을 <b className="purple">여러 사람과 함께 고민하고 판단하는 과정</b>에 흥미를 느낍니다.
               <br></br>
               <br></br>
